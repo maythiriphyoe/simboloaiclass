@@ -120,7 +120,7 @@ nvidia-cusparse-cu12==12.3.1.170
 nvidia-nccl-cu12==2.21.5
 nvidia-nvjitlink-cu12==12.4.127
 nvidia-nvtx-cu12==12.4.127
-opencv-python==4.10.0.84
+opencv-python-headless==4.10.0.84
 optimum==1.23.3
 orjson==3.10.12
 overrides==7.7.0
