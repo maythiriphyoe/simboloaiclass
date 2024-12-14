@@ -115,7 +115,7 @@ st.write("Let me help you with gardening and plant identification!")
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         if message["role"] == "user" and "image" in message:
-            st.image(message["image"], caption="User uploaded image", use_column_width=True)
+            st.image(message["image"], caption="User uploaded image", use_container_width=True)
             if message.get("content"):
                 st.markdown(message["content"])
         else:
