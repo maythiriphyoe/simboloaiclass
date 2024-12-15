@@ -82,7 +82,7 @@ def classify_image(uploaded_image):
             st.error("Uploaded file is not a valid image.")
             return None
 
-        st.image(cv2.cvtColor(image, cv2.COLOR_BGR2RGB), caption="Uploaded Image", use_column_width=True)
+        st.image(cv2.cvtColor(image, cv2.COLOR_BGR2RGB), caption="Uploaded Image", use_container_width=True)
 
         # Resize the image
         IMG_SIZE = 128  # Ensure this matches the size used in training
